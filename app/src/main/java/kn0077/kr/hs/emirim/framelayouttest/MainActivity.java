@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    View.OnClickListener butHandler=new View.OnClickListener()/*OnClickListener는 인터페이스지만 익명 클래스임으로 한번만 사용할 것이라 implement를 new로 써서 표현함*/ {
+    View.OnClickListener butHandler=new View.OnClickListener()/*OnClickListener는 인터페이스지만 익명 클래스임으로 한번만 사용할 것이라 implement를 new로 써서 표현함, 다른 클래스를 상속 받을 때에도 똑같이 new로 표현함*/ {
         @Override
         public void onClick(View v) {
             switch (v.getId()){
